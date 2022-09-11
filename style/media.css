@@ -1,0 +1,370 @@
+@media(max-width:1140px) {
+    .film__box {
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .film__card {
+        flex-shrink: 0;
+    }
+
+    .film__box::-webkit-scrollbar {
+        height: 3px;
+    }
+
+    .film__box::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(90.09deg, #3800af 0%, #bf7204 97.52%, #c27500 100%, #c27500 100%);
+    }
+    .collect__box{
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .collect__card{
+        flex-shrink: 0;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        max-width: 540px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:900px) {
+    .widow {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media(max-width:750px) {
+    .footer__box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer{
+        margin-top: 30px;
+        padding: 15px 0;
+    }
+}
+@media(max-width:650px) {
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        position: absolute;
+        background-color: #000;
+        top: -80px;
+        right: -220px;
+        height: 100vh;
+        align-items: center;
+        padding: 50px 60px 0;
+        transition: 1s;
+    }
+
+    .nav__link span {
+        padding: 25px 0;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+
+    .nav {
+        padding: 20px 0;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .checkbox:checked~.nav__list {
+        right: 0;
+    }
+
+    .intro {
+        height: 500px;
+    }
+
+    .intro__title {
+        font-size: 50px;
+        line-height: 120%;
+    }
+
+    .intro__text {
+        margin: 30px 0;
+    }
+
+    .link {
+        width: 140px;
+        height: 40px;
+    }
+
+    .film__card {
+        width: 230px;
+        height: 320px;
+        background-position: top;
+    }
+
+    .film__card span {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .film__title {
+        margin: 10px 0;
+    }
+
+    .film__text {
+        line-height: 130%;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 30px 0;
+        line-height: 120%;
+    }
+    .game{
+        height: 370px;
+        
+    }
+    .game__title{
+        font-size: 35px;
+        line-height: 120%;
+    }
+    .game__text{
+        margin: 20px 0;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 130%;
+    }
+}
+
+@media(max-width:550px) {
+    .grid{
+        gap: 15px;
+        margin-top: 15px;
+        display: flex;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .grid__box {
+        width: 255px;
+        flex-shrink: 0;
+    }
+    .play {
+        font-size: 35px;
+    }
+    .grid__title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:500px) {
+    .intro {
+        height: 400px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+
+    .intro__text {
+        margin: 15px 0;
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+    .link {
+        width: 120px;
+        height: 35px;
+    }
+
+    .intro__link {
+        margin-left: 15px;
+    }
+
+    .nav__logo img {
+        width: 80px;
+    }
+
+    .nav__logo {
+        font-size: 15px;
+    }
+
+    .header__top {
+        padding: 15px 0;
+    }
+
+    .bar,
+    .close {
+        font-size: 25px;
+    }
+
+    .nav__list {
+        padding: 40px 30px 0;
+    }
+
+    .nav__link span {
+        padding: 20px 0;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .widow {
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        height: 400px;
+    }
+    .widow .link{
+        margin: 0 auto;
+    }
+    .widow__title{
+        max-width: 350px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .widow__text{
+        margin: 15px 0;
+        line-height: 120%;
+    }
+}
+
+@media(max-width:450px) {
+    .game{
+        height: 340px;
+    }
+    .game__title{
+        font-size: 25px;
+    }
+    .game__text{
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .footer__text{
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+    }
+    .footer__info{
+        column-gap: 20px;
+    }
+}
+@media(max-width:360px) {
+    .nav__list {
+        top: -56px;
+    }
+
+    .intro {
+        height: 360px;
+    }
+
+    .intro__title {
+        font-size: 27px;
+    }
+
+    .intro__text {
+        font-size: 13px;
+    }
+
+    .header__top {
+        padding: 10px 0;
+    }
+
+    .header__top span {
+        font-size: 30px;
+    }
+
+    .header__text {
+        font-size: 14px;
+    }
+
+    .nav__logo img {
+        width: 60px;
+    }
+
+    .nav__logo {
+        font-size: 12px;
+    }
+
+    .bar,
+    .close {
+        font-size: 20px;
+    }
+
+    .link {
+        width: 110px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .film__box {
+        gap: 15px;
+    }
+
+    .film__card {
+        width: 200px;
+        height: 280px;
+        padding: 10px;
+    }
+
+    .film__title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .title {
+        margin: 15px 0;
+        font-size: 25px;
+    }
+
+    .film__text {
+        font-size: 13px;
+        line-height: 125%;
+    }
+    .widow {
+        height: 370px;
+    }
+    .widow__title{
+        max-width: 270px;
+        width: 100%;
+        margin-top: 0;
+    }
+    .widow__text{
+        margin: 15px 0;
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .collect__card{
+        height: 170px;
+    }
+    .collect__left,
+    .collect__right{
+        height: 155px;
+    }
+    .play {
+        font-size: 35px;
+    }
+    .collect__title{
+        font-size: 18px;
+    }
+    .game{
+        display: none;
+    }
+}
